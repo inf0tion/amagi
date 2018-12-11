@@ -21,7 +21,7 @@ class DevData_Sample(DevData):
         return res
 
     def setInterpolationPointData(self, time: datetime):
-        self.entry_id = ''
+        self.id = ''
         self.time = time
         self.mydata = ()
         self.status = DevData.STATUS_NG
